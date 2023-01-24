@@ -1,4 +1,4 @@
-# Nvm to manage Node versions
+# Nvm To Manage Node Versions
 
 ## Windows
   Open the link and chose a version for download 
@@ -10,7 +10,7 @@
     sudo apt install curl 
     curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 
-## Nvm Comands
+## Nvm Most Use Comands
   `nvm install <version>` - to install a especific node version
   
   `nvm uninstall <version>` - to uninstall a especific node version
