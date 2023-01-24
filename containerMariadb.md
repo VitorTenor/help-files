@@ -3,6 +3,7 @@
   <li>
     `docker pull mariadb`
   </li>
+  <li>
     `docker run -d --name CONTAINER-NAME -p 3306:3306 -e "MYSQL_ROOT_PASSWORD=YOUR-PASSWORD-HERE" mariadb`
   </li>
 </ol>
