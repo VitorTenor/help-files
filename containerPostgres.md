@@ -3,7 +3,7 @@
 `sudo docker pull postgres`
     
 
-`sudo docker run --restart always -d --name postgres -p 5432:5432 \ -e MYSQL_ROOT_PASSWORD=postgres postgres`
+`sudo docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres`
 
 
 
