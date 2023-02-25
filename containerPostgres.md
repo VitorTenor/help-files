@@ -1,9 +1,9 @@
 ## Create a Postgres Container With Docker
 
-`docker pull postgres`
+`sudo docker pull postgres`
     
 
-`docker run --name CONTAINER-NAME -p 5432:5432 -e POSTGRES_PASSWORD=PASSWORD-HERE -d postgres`
+`sudo docker run --restart always -d --name postgres -p 5432:5432 \ -e MYSQL_ROOT_PASSWORD=postgres postgres`
 
 
 
